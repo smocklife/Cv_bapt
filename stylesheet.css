@@ -1,0 +1,46 @@
+.page{
+  width: 780px;
+  margin: auto;
+  font-family:'source sans pro',calibri ,tahoma sans-serif;
+  font-size: 16px;
+  background-color: lightblue;
+}
+
+.infopermis{
+  height: 150px;
+}
+.info{
+  float:left;
+}
+.permis{
+  float: right;
+  margin-top: 20px;
+}
+.titre1{
+  text-align: center;
+
+
+}
+.section {
+
+}
+
+.h2{
+  text-align: center;
+  text-decoration: underline;
+
+}
+.sf{
+  list-style:circle;
+}
+.h3{
+  text-align: left;
+  text-decoration: underline;
+}
+.liste>li{
+  list-style:  circle;
+}
+.table{
+ border-collapse: separate;
+ border-spacing:30px 1px;
+}
