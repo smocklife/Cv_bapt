@@ -19,7 +19,8 @@ h1{
   margin-left: 50px;
   margin-bottom: 50px;
   margin-right: 50px;
-  height:780px;
+  height:1000px;
+  width:900px;
   border:5px solid yellow;
 }
 .en-tete{
@@ -37,7 +38,7 @@ h1{
 }
 .marquee-rtl > div{
   display: inline-block;
-  margin-left:1000px;
+  margin-left:300px;
   white-space: nowrap;
   animation: defilement-rtl 15s infinite linear;
 }
