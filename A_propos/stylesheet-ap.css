@@ -1,5 +1,5 @@
 .body{
-  width: 900px;
+  width: 1500px;
   height: auto;
   margin: auto;
   align-content: center;
@@ -20,7 +20,7 @@ h1{
   margin-bottom: 50px;
   margin-right: 50px;
   height:1000px;
-  width:900px;
+  width:auto;
   border:5px solid yellow;
 }
 .en-tete{
@@ -62,8 +62,18 @@ h1{
   text-shadow: 2px 2px 2px green;
 }
 .gauche{
-
+  margin-left: 10px;
+  margin-top: 10px;
+  float: left;
 }
+
+.img{
+  height: 100px;
+  width: 100px;
+  border: 1px solid darkblue;
+  border-radius: 100px;
+}
+
 .droite{
   margin-right: 10px;
   margin-top: 10px;
