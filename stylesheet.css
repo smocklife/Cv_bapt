@@ -2,8 +2,9 @@
   width: 780px;
   margin: auto;
   font-family:'source sans pro',calibri ,tahoma sans-serif;
-  font-size: 14px;
-  border:13px groove red;
+  font-size: 18px;
+  background-color:#F5F5E5;
+  border: 1px solid gray;
 }
 .nom{
   font-size:35px;
@@ -12,6 +13,7 @@
 .infopermis{
   height: 150px;
   margin-left:10px;
+  margin-bottom: 50px;
 }
 .info{
   float:left;
@@ -23,49 +25,72 @@
 }
 .titre1{
   text-align: center;
-  border:10px ridge blue;
-  margin: 10px;
+  border:2.5px ridge #ffd700;
+  border-top: none;
+  border-bottom-left-radius: 300px;
+  border-bottom-right-radius:300px;
+  margin-right: 10px;
+  background:linear-gradient(#F5F5E5, #ffe140);
 
+/*#ffe140     #F5F5E5*/
 
 }
 .section {
-
+  margin-left: 20px;
 }
+
 .infor{
   font-size: 30px;
   text-align: center;
-  background-image:url("./img/coding.jpg");
-  color:#3BFF06;
+  color:black;
+  background: linear-gradient(#57574D, #F5F5E5);
   text-decoration: underline;
-  border: 1px dotted black;
-  border-radius: 10px;
-  margin-left: 300px;
-  margin-right: 300px;
+  border-top: 3px dashed black;
+  border-left:3px dashed black ;
+  border-right:3px dashed black;
+  border-radius: 300px;
+  margin-left:200px;
+  margin-right: 200px;
+
 }
+
+
 .brick{
   font-size: 30px;
   text-align: center;
-  background-image: url("./img/brique.jpg");
   text-decoration:underline;
-  border: 1px dotted black;
-  border-radius: 10px;
-  margin-left: 300px;
-  margin-right: 300px;
+  border-top: 3px dashed black;
+  border-left:3px dashed black ;
+  border-right:3px dashed black;
+  border-radius: 300px;
+  margin-left:200px;
+  margin-right: 200px;
+  background: linear-gradient(#57574D, #F5F5E5);
 }
 .h2{
+  font-size: 30px;
   text-align: center;
   text-decoration: underline;
-  border: 1px none;
-  background-color: lightblue;
+  border-top: 3px dashed black;
+  border-left:3px dashed black ;
+  border-right:3px dashed black;
+  border-radius: 300px;
+  background: linear-gradient(#57574D, #F5F5E5);
+  margin-left:200px;
+  margin-right: 200px;
 }
 .sf{
   list-style:circle;
 }
 .h3{
-  text-align: left;
+  font-size: 18px;
+  margin-right: 10px;
   text-decoration: underline;
-  border:1px none;
-  background-color: gray;
+  border-left:1.5px dashed black ;
+  border-right:1.5px dashed black;
+  border-bottom:1.5px dashed black;
+  border-radius:300px;
+  background:linear-gradient(#F5F5E5, #57574D);
   margin-right: 555px;
 }
 .liste>li{
@@ -94,9 +119,24 @@
   text-decoration: none;
   color: black;
   font-size: 30px;
-  border: 5px ridge blue;
+  border-top:1.5px solid black;
+  border-bottom: 1.5px solid black;
   border-radius: 3px;
   margin-left: 20px;
   margin-top: 50px;
+  background:linear-gradient(#F5F5E5, #57574D);
+}
 
+.foot>a:hover{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  border-left:1.5px solid black;
+  border-right: 1.5px solid black;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 3px;
+  margin-left: 20px;
+  margin-top: 50px;
+  background:linear-gradient(#57574D, #F5F5E5);
 }
