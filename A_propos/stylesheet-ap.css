@@ -37,7 +37,7 @@ h1{
   display: inline-block;
   margin-left:1000px;
   white-space: nowrap;
-  animation: defilement-rtl 20s infinite linear;
+  animation: defilement-rtl 15s infinite linear;
 }
 @keyframes defilement-rtl {
  0% {
