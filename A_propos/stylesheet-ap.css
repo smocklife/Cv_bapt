@@ -1,5 +1,5 @@
 .body{
-  width: 780px;
+  width: 900px;
   height: auto;
   margin: auto;
   align-content: center;
@@ -71,5 +71,5 @@ h1{
   font-family: fantasy;
   border: 10px ridge yellow;
   height: auto;
-  width: auto;
+  width: 250px;
 }
