@@ -1,5 +1,5 @@
 .body{
-  width: 900px;
+  width:780px;
   height: auto;
   margin: auto;
   align-content: center;
@@ -19,7 +19,7 @@ h1{
   margin-left: 50px;
   margin-bottom: 50px;
   margin-right: 50px;
-  height:1000px;
+  height:500px;
   width:auto;
   border:5px solid yellow;
 }
@@ -64,21 +64,37 @@ h1{
 .gauche{
   margin-left:10px;
   margin-top:10px;
-  float:left;
+  float:right;
 }
 
 .img{
   border: 1px solid darkblue;
   border-radius: 100px;
 }
+.nom{
+  font-size:20px;
+  font-family: cursive;
+}
 
 .droite{
   margin-right: 10px;
-  margin-top: 10px;
-  float: right;
+  margin-top: 50px;
+  margin-left: 10px;
+  float: left;
   font-size: 20px ;
-  font-family: fantasy;
   border: 10px ridge yellow;
   height: auto;
   width: 400px;
+  color: yellow;
+}
+
+.tit{
+  font-size: 18px;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+.texte{
+  font-size: 15px;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
 }
