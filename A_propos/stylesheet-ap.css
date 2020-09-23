@@ -1,6 +1,8 @@
 .body{
-  width: auto;
+  width: 780px;
   height: auto;
+  margin: auto;
+  align-content: center;
   background-color: darkblue;
   font-family: arial,sans-serif;
 }
