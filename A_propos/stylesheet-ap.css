@@ -1,5 +1,5 @@
 .body{
-  width: 1500px;
+  width: 900px;
   height: auto;
   margin: auto;
   align-content: center;
@@ -62,9 +62,9 @@ h1{
   text-shadow: 2px 2px 2px green;
 }
 .gauche{
-  margin-left: 10px;
-  margin-top: 10px;
-  float: left;
+  margin-left:10px;
+  margin-top:10px;
+  float:left;
 }
 
 .img{
